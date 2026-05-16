@@ -33,9 +33,13 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.navigation:navigation-fragment:2.7.7'
+    implementation 'androidx.navigation:navigation-ui:2.7.7'
+
     implementation libs.activity.ktx
     implementation libs.appcompat
     implementation libs.constraintlayout
+    implementation libs.fragment
     implementation libs.material
     testImplementation libs.junit
     androidTestImplementation libs.espresso.core

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+    android:id="@+id/fragmentHome"
+    android:name="hu.nje.kalandjatekmobil.ui.HomeFragment"
+    android:label="Kezdőlap"
+    tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/fragmentCharacter"
+        android:name="hu.nje.kalandjatekmobil.ui.CharacterFragment"
+        android:label="Karakterlap"
+        tools:layout="@layout/fragment_character" />
+
+</navigation>
